@@ -1,0 +1,17 @@
+1. Purpose of Git Commands:
+
+- git status: shows the current status of files (modified, staged, untracked).
+- git init: initializes a new Git repository.
+- git commit: saves staged changes with a message.
+- git push: uploads local commits to GitHub.
+
+2. Ahmed's claim about skipping `git add`:
+I disagree. `git add` lets you choose which changes to include. Without it, you’d have less control.
+
+3. Code Hosting Providers:
+a. GitLab and Bitbucket
+b. Features: backups, branching, pull requests, access control, CI/CD.
+c. True. A team can self-host version control tools.
+
+4. `git push -u origin main`:
+The `-u` flag sets the default remote and branch, so future `git push` or `git pull` commands can be used without specifying branch names.
